@@ -123,21 +123,19 @@ header{
     font-size: 1.5rem;
 }
 
-
-
 .watch-card-1{
-    width: 28vw;
+    width: 450px;
     height: 450px;
     background: url(img/Group\ 40.png) no-repeat;
 }
 .watch-card-2{
-    width: 28vw;
+    width: 450px;
     height: 450px;
     background: url(img/Group\ 41.png) no-repeat;
 }
 
 .watch-card-3{
-    width: 30vw;
+    width: 450px;
     height: 450px;
     background: url(img/Group\ 42.png) no-repeat;
 }
@@ -158,6 +156,40 @@ header{
     left: 20%;
     top: 70%;
 }
+
+/*SECTION3*/
+
+.section-3{
+    margin: 5rem 0 5rem 0;
+}
+.section-3-main-content{
+    width: 40%;
+}
+
+.section-3-main-content h2{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.section-3-main-content p{
+    font-size: 1.5rem;
+}
+
+.section-3-main-content button{
+    width: 185px;
+    height: 65px;
+    color:#6565EC;
+    border: 1px solid #E5E5E5;
+    border-radius: 0.5rem;
+    background: none;
+}
+
+.section-3-main-content button:hover{
+    color: #5c5c64;
+}
+
+
+
 
 
 
