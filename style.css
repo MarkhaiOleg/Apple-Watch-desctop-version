@@ -68,7 +68,7 @@ header{
 /*SECTION1*/
 
 .section-1{
-  margin-top: 5rem;
+  margin: 5rem 0 5rem 0;
 }
 
 .section-1-title{
@@ -85,6 +85,7 @@ header{
 }
 
 .section-1 a{
+    font-size: 1.7rem;
     color:#01010D;
     text-decoration: none;
 }
@@ -93,4 +94,70 @@ header{
     color: #5c5c64;
     cursor: pointer;
 }
+
+/*SECTION2*/
+
+.section-2-title{
+    margin-top: 8rem;
+    width: 50%;
+}
+
+.section-2-title a{
+    color: #6565EC;
+    text-decoration: none;
+}
+
+.section-2-title a:hover{
+   color: #5c5c64;
+}
+
+.section-2-title img{
+    padding-bottom: 0.5rem;
+}
+
+.section-2-title h2{
+    font-size: 3rem;
+}
+
+.section-2-title p{
+    font-size: 1.5rem;
+}
+
+
+
+.watch-card-1{
+    width: 28vw;
+    height: 450px;
+    background: url(img/Group\ 40.png) no-repeat;
+}
+.watch-card-2{
+    width: 28vw;
+    height: 450px;
+    background: url(img/Group\ 41.png) no-repeat;
+}
+
+.watch-card-3{
+    width: 30vw;
+    height: 450px;
+    background: url(img/Group\ 42.png) no-repeat;
+}
+
+.watch-card-1,
+.watch-card-2,
+.watch-card-3{
+  position: relative;
+}
+
+.watch-card-1 a,
+.watch-card-2 a,
+.watch-card-3 a{
+    font-size: 3rem;
+    color: #5c5c64;
+    text-decoration: none;
+    position: absolute;
+    left: 20%;
+    top: 70%;
+}
+
+
 
