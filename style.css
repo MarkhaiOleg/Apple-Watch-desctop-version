@@ -12,7 +12,7 @@ body{
 
 header{
    background: url(img/headerbc.svg);
-   padding: 1rem 2rem 0 0;
+   padding: 1rem 2rem 6rem 0;
 }
 
 .nav-item a{
@@ -63,5 +63,34 @@ header{
 .header-main-content button:hover{
   background-color: #6565EC;
   color: #fff;
+}
+
+/*SECTION1*/
+
+.section-1{
+  margin-top: 5rem;
+}
+
+.section-1-title{
+    margin-bottom: 5rem;
+}
+.section-1-title h2{
+  font-size: 4rem;
+}
+
+.section-1-title p{
+    text-align: center;
+    width: 40%;
+    font-size: 1.5rem;
+}
+
+.section-1 a{
+    color:#01010D;
+    text-decoration: none;
+}
+
+.section-1 a:hover{
+    color: #5c5c64;
+    cursor: pointer;
 }
 
